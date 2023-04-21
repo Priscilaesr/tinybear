@@ -43,7 +43,7 @@ header > h1 {
     font-family: var(--fonte-destaque);
     font-size: 3em;
     font-weight: normal;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
 
@@ -55,7 +55,7 @@ header > p {
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
 }
 
@@ -144,6 +144,13 @@ main a:hover {
 
 main img {
     width: 100%;
+}
+
+.imglogo {
+    width: 20%;
+    padding-bottom: 5px;
+    border-radius: 50%;
+
 }
 
 main img.pequena {
