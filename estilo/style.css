@@ -4,12 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
 
-@font-face {
-    font-family: 'Patch';
-    src: url('fonts/Patchwork Stitchlings Color') format('opentype');
-    font-weight: normal;
-}
-
 :root {
     --cor0: #ACADF1;
     --cor1: #D5D4FC;
@@ -21,7 +15,6 @@
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Titan One', cursive;
     --fonte-2destaque: 'Bungee Inline', cursive;
-    --fonte-patch: 'Patch', cursive;
     --fonte-3destaque: 'Love Ya Like A Sister', cursive;
   }
 
