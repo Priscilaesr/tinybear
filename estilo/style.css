@@ -175,6 +175,39 @@ div.video > iframe {
     height: 100%;
 }
 
+table {
+    width: 460px;
+    height: 450px;
+    border-collapse: collapse;
+}
+
+th.cab {
+    font-weight: bolder;
+    text-align: center;
+    border: 1px solid black;
+    padding: 8px;
+    background-image: linear-gradient(to left, var(--cor2), transparent);
+}
+
+td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+tr {
+    background-color: var(--cor2);
+    background-image: linear-gradient(to left, var(--cor3), transparent);
+}
+
+tr.linha1 {
+    background-color: var(--cor3);
+}
+
+td.hour {
+    font-weight: bolder;
+}
+
 div.contact > p {
     font-size: 20px;
     text-align: center;
