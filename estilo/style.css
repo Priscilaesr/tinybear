@@ -1,10 +1,12 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
 
 @font-face {
-    font-family: 'Stitch';
-    src: url('quirky stitch') format('opentype');
+    font-family: 'Patch';
+    src: url('fonts/Patchwork Stitchlings Color') format('opentype');
     font-weight: normal;
 }
 
@@ -17,8 +19,10 @@
     --cor5: #FBDFCA;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque: 'Bebas Neue', cursive;
-    --fonte-stitch: 'Stitch', cursive;
+    --fonte-destaque: 'Titan One', cursive;
+    --fonte-2destaque: 'Bungee Inline', cursive;
+    --fonte-patch: 'Patch', cursive;
+    --fonte-3destaque: 'Love Ya Like A Sister', cursive;
   }
 
 * {
@@ -41,16 +45,16 @@ header {
 header > h1 {
     color: var(--cor5);
     font-family: var(--fonte-destaque);
-    font-size: 3em;
+    font-size: 2.3em;
     font-weight: normal;
     margin-bottom: 5px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
 
 header > p {
-    font-family: var(--fonte-padrao);
-    font-size: 1.2em;
-    color: var(--cor1);
+    font-family: var(--fonte-2destaque);
+    font-size: 1em;
+    color: var(--cor3);
     max-width: 600px;
     padding-right: 10px;
     padding-left: 10px;
@@ -76,7 +80,7 @@ nav > a {
 }
 
 nav > a:hover {
-    background-color: var(--cor1);
+    background-color: var(--cor2);
     color: var(--cor5);
 }
 
@@ -94,8 +98,8 @@ main {
 
 main h1 {
     color: var(--cor0);
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
+    font-family: var(--fonte-padrao);
+    font-weight: bold;
     font-size: 1.5em;
 }
 
@@ -147,7 +151,7 @@ main img {
 }
 
 .imglogo {
-    width: 15%;
+    width: 20%;
     padding-bottom: 5px;
     border-radius: 50%;
 
