@@ -176,8 +176,8 @@ div.video > iframe {
 }
 
 table {
-    width: 400px;
-    height: 450px;
+    width:90vw;
+    height: 90vh;
     border-collapse: collapse;
 }
 
