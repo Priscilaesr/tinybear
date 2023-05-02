@@ -186,8 +186,8 @@ table {
     height: 90vh;
     border-collapse: collapse;
     margin: auto;
-    min-width: 470px;
-    max-width: 300px;
+    min-width: 455px;
+    max-width: 375px;
 }
 
 th.cab {
