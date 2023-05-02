@@ -188,6 +188,7 @@ table {
     margin: auto;
     min-width: 455px;
     max-width: 375px;
+    margin-bottom: 8px;
 }
 
 th.cab {
