@@ -186,7 +186,7 @@ table {
     height: 90vh;
     border-collapse: collapse;
     margin: auto;
-    min-width: 375px;
+    min-width: 370px;
     max-width: 1050px;
     margin-bottom: 8px;
 }
